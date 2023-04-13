@@ -1,9 +1,9 @@
 public class Viewer {
     private String nickname;
     private int age;
-    private String[] moviesWatched;
+    private Cinema[] moviesWatched;
 
-    public Viewer(String nickname, int age, String[] moviesWatched) {
+    public Viewer(String nickname, int age, Cinema[] moviesWatched) {
         this.nickname = nickname;
         this.age = age;
         this.moviesWatched = moviesWatched;
@@ -25,11 +25,11 @@ public class Viewer {
         this.age = age;
     }
 
-    public String[] getMoviesWatched() {
+    public Cinema[] getMoviesWatched() {
         return moviesWatched;
     }
 
-    public void setMoviesWatched(String[] moviesWatched) {
+    public void setMoviesWatched(Cinema[] moviesWatched) {
         this.moviesWatched = moviesWatched;
     }
 }
